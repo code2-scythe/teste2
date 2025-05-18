@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: gestao-de-estoque
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/gestao-de-estoque
+    username: root
+    password:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
